@@ -1,0 +1,145 @@
+﻿@page "/"
+@inject IJSRuntime JS
+
+<div>
+    <img src="images/bird.png" class="bird" style="top:@birdTopPx; left:@birdLeftPx;" />
+    <img src="images/pipedown.png" class="pipe" style="top:@pipeUpTopPx; left:@pipeLeftPx;" />
+    <img src="images/pipe.png" class="pipe" style="top:@pipeDownTopPx; left:@pipeLeftPx;" />
+    <img src="images/ground.png" class="ground" style="bottom:0; left:0;" />
+</div>
+
+<h2>Score: @score</h2>
+@if (isGameOver)
+{
+    <button @onclick="RestartGame">Restart</button>
+}
+else
+{
+    <button @onclick="StartGame" hidden="@gameStarted">Start</button>
+}
+
+@code {
+    int gravity = 2;
+    int pipeSpeed = 4;
+    int score = 0;
+    int level_upper = 0;
+    Random rand = new Random();
+    bool isGameOver = false;
+    bool gameStarted = false;
+
+    // Kuş pozisyonları
+    double birdTop = 150;
+    double birdLeft = 124;
+    string birdTopPx => $"{birdTop}px";
+    string birdLeftPx => $"{birdLeft}px";
+
+    // Borular
+    double pipeLeft = 500;
+    double pipeUpTop = 0;
+    double pipeDownTop = 0;
+    string pipeLeftPx => $"{pipeLeft}px";
+    string pipeUpTopPx => $"{pipeUpTop}px";
+    string pipeDownTopPx => $"{pipeDownTop}px";
+
+    System.Timers.Timer gameTimer;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var dotNetRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("flappyKeyboard.registerSpace", dotNetRef);
+        }
+    }
+
+    void StartGame()
+    {
+        score = 0;
+        birdTop = 150;
+        ResetPipes();
+        isGameOver = false;
+        gameStarted = true;
+
+        gameTimer = new System.Timers.Timer(20);
+        gameTimer.Elapsed += GameLoop;
+        gameTimer.Start();
+    }
+
+    void RestartGame()
+    {
+        gameTimer?.Stop();
+        score = 0;
+        pipeSpeed = 4;
+        birdTop = 150;
+        level_upper = 0;
+        ResetPipes();
+        isGameOver = false;
+        gameStarted = true;
+        gameTimer.Start();
+    }
+
+    void GameLoop(object sender, System.Timers.ElapsedEventArgs e)
+    {
+        if (isGameOver) return;
+
+        // Kuş düşüyor
+        birdTop += gravity;
+
+        // Borular sola kayıyor
+        pipeLeft -= pipeSpeed;
+
+        if (pipeLeft + 190 < 0) // Boru ekran dışına çıktı
+        {
+            pipeLeft = 500;
+            score++;
+            level_upper++;
+            if (level_upper == 3)
+            {
+                pipeSpeed++;
+                level_upper = 0;
+            }
+            ResetPipes();
+            InvokeAsync(StateHasChanged);
+        }
+
+        // Çarpışma kontrolü
+        if (birdTop < -25 || birdTop + 60 > 450 || // Yerden veya yukarıdan çarp
+            (pipeLeft < birdLeft + 80 && pipeLeft + 190 > birdLeft && (birdTop < pipeUpTop + 556 || birdTop + 60 > pipeDownTop)))
+        {
+            EndGame();
+        }
+
+        InvokeAsync(StateHasChanged);
+    }
+
+    void ResetPipes()
+    {
+        int minGapY = 70;
+        int maxGapY = 200;
+        int gapY = rand.Next(minGapY, maxGapY);
+        int gapHeight = 150;
+
+        pipeUpTop = gapY - 556;
+        pipeDownTop = gapY + gapHeight;
+    }
+
+    void EndGame()
+    {
+        gameTimer?.Stop();
+        isGameOver = true;
+        gameStarted = false;
+        InvokeAsync(StateHasChanged);
+        pipeSpeed = 4;
+        level_upper = 0;
+    }
+
+    [JSInvokable]
+    public void OnSpacePressed()
+    {
+        if (!isGameOver)
+        {
+            birdTop -= 25;
+            InvokeAsync(StateHasChanged);
+        }
+    }
+}

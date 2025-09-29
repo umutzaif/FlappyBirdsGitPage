@@ -1,0 +1,2 @@
+C:\Users\Asus-PC\source\repos\FlappyBirdsGitPage\FlappyBirdsGitPage\publish\emcc-props.json
+C:\Users\Asus-PC\source\repos\FlappyBirdsGitPage\FlappyBirdsGitPage\publish\web.config
