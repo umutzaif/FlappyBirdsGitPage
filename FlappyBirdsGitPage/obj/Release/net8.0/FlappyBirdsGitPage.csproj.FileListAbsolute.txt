@@ -2088,3 +2088,13 @@ C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\n
 C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish\wwwroot\_framework\blazor.boot.json
 C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\wwwroot\sample-data\weather.json
 C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\wwwroot\_framework\blazor.boot.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\docs\sample-data\weather.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\docs\_framework\blazor.boot.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\emcc-props.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\FlappyBirdsGitPage.staticwebassets.endpoints.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\publish\emcc-props.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\publish\FlappyBirdsGitPage.staticwebassets.endpoints.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\publish\wwwroot\sample-data\weather.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\publish\wwwroot\_framework\blazor.boot.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\wwwroot\sample-data\weather.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\FlappyBirdsGitPage\bin\Release\net8.0\publish-temp\publish-temp\wwwroot\_framework\blazor.boot.json
