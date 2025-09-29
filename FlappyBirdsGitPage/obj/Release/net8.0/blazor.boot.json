@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FlappyBirdsGitPage",
   "resources": {
-    "hash": "sha256-4ZF8rpBjIj3uE4Nx75FEJKD0/6wFacc3Ax/OWhK/7Fg=",
+    "hash": "sha256-JaxhuqwDTKHPM/iY/xBBavB0t7GdJpD5E9nW9qO1280=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-8qWtIcy8fV43tlcx4DxsF45RlkcfK6588vVoxF7be2E=",
       "netstandard.wasm": "sha256-eOgz2RiO4YaPLOMIGgVLNrcfsQhmLQJzR0N7Pu2teXc=",
       "System.Private.CoreLib.wasm": "sha256-F8T63QCIbMPXPQPqTcuyBAw+oVvZSrWjy88j7fiJQZ4=",
-      "FlappyBirdsGitPage.wasm": "sha256-ZkIURwL31IMBpkdGAfGa5PhCZJ6OvAYKDlaB82ZMeDQ="
+      "FlappyBirdsGitPage.wasm": "sha256-o6F96kbuUZIrdS44ZP6yv67jqiTzYe1h3DWvVsdYers="
     },
     "pdb": {
-      "FlappyBirdsGitPage.pdb": "sha256-nDpSPuwZUNKwB4u+OLG//jQFVWXPh/KG5JLjqw1tBqA="
+      "FlappyBirdsGitPage.pdb": "sha256-IMDRsZnbGHybcV1mAWCX4WaTnzdziCcp+YhjbRnkwWM="
     }
   },
   "cacheBootResources": true,

@@ -1,0 +1,7 @@
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\publish\web.config
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\publish\emcc-props.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\publish\FlappyBirdsGitPage.staticwebassets.endpoints.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\publish\wwwroot\sample-data\weather.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\publish\wwwroot\_framework\blazor.boot.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\emcc-props.json
+C:\Users\Asus-PC\Desktop\FPG\FlappyBirdsGitPage\publish\web.config
