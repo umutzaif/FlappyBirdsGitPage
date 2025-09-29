@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QjhGOz9W+pg=",
+  "dgSpecHash": "geRx4FMoD9M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus-PC\\source\\repos\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\FlappyBirdsGitPage.csproj",
+  "projectFilePath": "C:\\Users\\Asus-PC\\Desktop\\FPG\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\FlappyBirdsGitPage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus-PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.20\\microsoft.aspnetcore.authorization.8.0.20.nupkg.sha512",
     "C:\\Users\\Asus-PC\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.20\\microsoft.aspnetcore.components.8.0.20.nupkg.sha512",

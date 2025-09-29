@@ -1852,11 +1852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus-PC\\source\\repos\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\FlappyBirdsGitPage.csproj",
+      "projectUniqueName": "C:\\Users\\Asus-PC\\Desktop\\FPG\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\FlappyBirdsGitPage.csproj",
       "projectName": "FlappyBirdsGitPage",
-      "projectPath": "C:\\Users\\Asus-PC\\source\\repos\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\FlappyBirdsGitPage.csproj",
+      "projectPath": "C:\\Users\\Asus-PC\\Desktop\\FPG\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\FlappyBirdsGitPage.csproj",
       "packagesPath": "C:\\Users\\Asus-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus-PC\\source\\repos\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\obj\\",
+      "outputPath": "C:\\Users\\Asus-PC\\Desktop\\FPG\\FlappyBirdsGitPage\\FlappyBirdsGitPage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",

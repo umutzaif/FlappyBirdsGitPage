@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "FlappyBirdsGitPage",
   "resources": {
-    "hash": "sha256-D1f2ULXrg/VaZZB8bAlsyOcnpVQpG0gcF9zxY7FWxtk=",
+    "hash": "sha256-GlLxyJ58yFQVNDjmthr6gMHWdQTj2WBiVgBPbVxaPcY=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
     },
@@ -51,7 +51,7 @@
       "System.Text.RegularExpressions.wasm": "sha256-SW5L77HZP6F1seYrYKk/8bCw55JedaRD8wTtEYIeaPY=",
       "System.wasm": "sha256-9DLmgOsnmEbjuZrRVFruRmVRvh/skjCDv6hQMjVZ3K8=",
       "System.Private.CoreLib.wasm": "sha256-Yhw5sMxnsBxksM6XSrVxg9/8lCYNB439HZvb/Fk+25M=",
-      "FlappyBirdsGitPage.wasm": "sha256-bU+J1rSkdE8eV859eQLA63VDltPQp3FzwanUQF2Z+nI="
+      "FlappyBirdsGitPage.wasm": "sha256-ZkIURwL31IMBpkdGAfGa5PhCZJ6OvAYKDlaB82ZMeDQ="
     }
   },
   "cacheBootResources": true,
