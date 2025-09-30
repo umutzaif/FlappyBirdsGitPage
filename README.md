@@ -18,3 +18,6 @@ Tamamen tarayıcı üzerinde çalışır ve **GitHub Pages** üzerinden yayınla
 git clone https://github.com/umutzaif/FlappyBirdsGitPage.git
 cd FlappyBirdsGitPage
 dotnet run --framework net8.0
+```
+# Not
+Kodlar Master Branch'te bulunuyor.
