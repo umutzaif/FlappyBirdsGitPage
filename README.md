@@ -20,4 +20,5 @@ cd FlappyBirdsGitPage
 dotnet run --framework net8.0
 ```
 # Not
-Kodlar Master Branch'te bulunuyor.
+C# kodları Main Branch'te bulunuyor.
+Blazor WEBAsembly kodları Master Branch'te bulunuyor.
