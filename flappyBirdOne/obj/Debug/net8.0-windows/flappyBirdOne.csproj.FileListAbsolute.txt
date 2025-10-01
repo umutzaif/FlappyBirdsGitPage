@@ -1,0 +1,17 @@
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\bin\Debug\net8.0-windows\flappyBirdOne.exe
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\bin\Debug\net8.0-windows\flappyBirdOne.deps.json
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\bin\Debug\net8.0-windows\flappyBirdOne.runtimeconfig.json
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\bin\Debug\net8.0-windows\flappyBirdOne.dll
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\bin\Debug\net8.0-windows\flappyBirdOne.pdb
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.Form1.resources
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.Properties.Resources.resources
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.csproj.GenerateResource.cache
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.AssemblyInfoInputs.cache
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.AssemblyInfo.cs
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.csproj.CoreCompileInputs.cache
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.dll
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\refint\flappyBirdOne.dll
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.pdb
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\flappyBirdOne.genruntimeconfig.cache
+C:\Users\Asus-PC\source\repos\flappyBirdOne\flappyBirdOne\obj\Debug\net8.0-windows\ref\flappyBirdOne.dll
