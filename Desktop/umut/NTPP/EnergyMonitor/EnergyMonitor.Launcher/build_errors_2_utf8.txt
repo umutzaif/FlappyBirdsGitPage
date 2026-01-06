@@ -1,0 +1,21 @@
+﻿  Geri y├╝klenecek projeler belirleniyor...
+  Geri y├╝kleme i├ğin t├╝m projeler g├╝ncel.
+  EnergyMonitor.Interface -> C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Interface\bin\Debug\net8.0\EnergyMonitor.Interface.dll
+  EnergyMonitor.SP -> C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.SP\bin\Debug\net8.0\EnergyMonitor.SP.dll
+  EnergyMonitor.Business -> C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Business\bin\Debug\net8.0\EnergyMonitor.Business.dll
+  EnergyMonitor.Service -> C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Service\bin\Debug\net8.0\EnergyMonitor.Service.dll
+CSC : warning DX1000: For evaluation purposes only. Redistribution prohibited. Please register an existing license (devexpress.com/DX1000) or purchase a new license (devexpress.com/BUY) to continue use of the following DevExpress product libraries: DevExpress.Xtra*/DevExpress.Win* (TextEdit, SimpleButton, LabelControl...) - Included in Subscriptions: Universal, DXperience, WinForms [C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\EnergyMonitor.Forms.csproj]
+CSC : warning DX1001: For evaluation purposes only. Redistribution prohibited. If you own a licensed/registered version or if you are using a 30-day trial version of DevExpress product libraries on a development machine, download your personal license key (devexpress.com/DX1001) and place DevExpress_License.txt in the following folder: "%AppData%\DevExpress" (Windows) or "$HOME/Library/Application Support/DevExpress" (macOS) or "$HOME/.config/DevExpress" (Linux). Alternatively, download and run the DevExpress Unified Component Installer to automatically activate your license. [C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\EnergyMonitor.Forms.csproj]
+C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\FrmDashboard.cs(1177,24): error CS0111: 'FrmDashboard' t├╝r├╝ ayn─▒ parametre t├╝rleriyle 'InitializeBusinessTab' adl─▒ bir ├╝yeyi zaten tan─▒ml─▒yor [C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\EnergyMonitor.Forms.csproj]
+
+Olu┼şturma BA┼ŞARISIZ OLDU.
+
+CSC : warning DX1000: For evaluation purposes only. Redistribution prohibited. Please register an existing license (devexpress.com/DX1000) or purchase a new license (devexpress.com/BUY) to continue use of the following DevExpress product libraries: DevExpress.Xtra*/DevExpress.Win* (TextEdit, SimpleButton, LabelControl...) - Included in Subscriptions: Universal, DXperience, WinForms [C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\EnergyMonitor.Forms.csproj]
+CSC : warning DX1001: For evaluation purposes only. Redistribution prohibited. If you own a licensed/registered version or if you are using a 30-day trial version of DevExpress product libraries on a development machine, download your personal license key (devexpress.com/DX1001) and place DevExpress_License.txt in the following folder: "%AppData%\DevExpress" (Windows) or "$HOME/Library/Application Support/DevExpress" (macOS) or "$HOME/.config/DevExpress" (Linux). Alternatively, download and run the DevExpress Unified Component Installer to automatically activate your license. [C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\EnergyMonitor.Forms.csproj]
+C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\FrmDashboard.cs(1177,24): error CS0111: 'FrmDashboard' t├╝r├╝ ayn─▒ parametre t├╝rleriyle 'InitializeBusinessTab' adl─▒ bir ├╝yeyi zaten tan─▒ml─▒yor [C:\Users\Asus-PC\Desktop\umut\NTPP\EnergyMonitor\EnergyMonitor.Forms\EnergyMonitor.Forms.csproj]
+    2 Uyar─▒
+    1 Hata
+
+Ge├ğen S├╝re 00:00:01.88
+
+─░┼ş y├╝k├╝ g├╝ncelle┼ştirmeleri var. Daha fazla bilgi i├ğin `dotnet workload list` ├ğal─▒┼şt─▒r─▒n.
